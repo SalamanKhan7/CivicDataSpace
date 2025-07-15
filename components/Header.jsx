@@ -13,10 +13,10 @@ export default function Header() {
       <div className="flex items-center justify-between px-4 py-3">
         {/* Logo & Title */}
         <div className="text-base font-heading font-medium tracking-wide flex items-center gap-2">
-          <Image src="/logo.png" alt="Logo" width={35} height={35} priority />
-          <Link href="/" className="hover:text-secondary text-sm sm:text-base">
+          <img src="/logo.png" alt="Logo" className="w-[35px] h-[35px]" />
+          <a href="/" className="hover:text-secondary text-sm sm:text-base">
             CivicDataSpace
-          </Link>
+          </a>
         </div>
 
         {/* Desktop Menu */}
