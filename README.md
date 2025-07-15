@@ -51,7 +51,7 @@ CivicDataSpace is a modern, responsive web application built using **Next.js (Ap
 ## Setup Instructions
 
 Clone the repo:
-git clone https://github.com/your-username/civic-data-space.git
+git clone https://github.com/SalamanKhan7/CivicDataSpace.git
 cd civic-data-space
 npm install
 NEXT_PUBLIC_API_BASE_URL=https://api.datakeep.civicdays.in
@@ -60,9 +60,5 @@ npm run dev
 
 ## Submission
 
-GitHub Repo: https://github.com/your-username/civic-data-space
-Live Demo: https://your-deployment-url.vercel.app
-
-```
-
-```
+GitHub Repo: https://github.com/SalamanKhan7/CivicDataSpace
+Live Demo: https://civicdataspac.netlify.app/
