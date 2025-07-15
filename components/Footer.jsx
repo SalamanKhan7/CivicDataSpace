@@ -86,13 +86,13 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="w-5 h-5 md:w-9 md:h-9 rounded-full overflow-hidden block hover:scale-110 transition"
             >
-              <img
+              <Image
                 src="/civicLogo.png"
                 alt="CivicDataLab Logo"
                 width={40}
                 height={40}
+                priority
                 className="object-cover w-full h-full"
-                loading="lazy"
               />
             </a>
           </div>

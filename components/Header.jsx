@@ -13,14 +13,7 @@ export default function Header() {
       <div className="flex items-center justify-between px-4 py-3">
         {/* Logo & Title */}
         <div className="text-base font-heading font-medium tracking-wide flex items-center gap-2">
-          <img
-            src="/logo.png"
-            alt="Logo"
-            width={35}
-            height={35}
-            className="object-contain"
-            loading="lazy"
-          />
+          <Image src="/logo.png" alt="Logo" width={35} height={35} priority />
           <Link href="/" className="hover:text-secondary text-sm sm:text-base">
             CivicDataSpace
           </Link>

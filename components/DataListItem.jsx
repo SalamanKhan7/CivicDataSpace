@@ -114,13 +114,13 @@ export default function DataListItem({ data }) {
           <div className="flex items-center gap-2 mt-2">
             <span className="text-gray-500">Published by:</span>
             <div className="w-12 h-12 rounded-full overflow-hidden border border-gray-100 bg-white flex items-center justify-center">
-              <img
+              {" "}
+              <Image
                 src={`${apiUrl}${organization?.logo}`}
                 alt="sector"
                 width={50}
                 height={50}
-                className="object-contain w-full h-full"
-                loading="lazy"
+                priority
               />
             </div>
           </div>
