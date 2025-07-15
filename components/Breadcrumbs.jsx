@@ -8,7 +8,6 @@ import { MdOutlineNavigateNext } from "react-icons/md";
 export default function Breadcrumbs() {
   const pathname = usePathname();
   const segments = pathname.split("/").filter(Boolean);
-
   return (
     <nav className="bg-third px-4 py-1 text-sm text-black">
       <ol className="flex space-x-2 items-center">

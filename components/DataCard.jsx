@@ -91,13 +91,13 @@ export default function DataCard({ data }) {
           <div className="flex items-center gap-1 text-xs text-gray-500">
             <span>published by</span>
             <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-100 bg-white flex items-center justify-center">
-              {" "}
-              <Image
+              <img
                 src={`${apiUrl}${organization?.logo}`}
                 alt="sector"
                 width={50}
                 height={50}
-                priority
+                className="object-contain w-full h-full"
+                loading="lazy"
               />
             </div>
           </div>

@@ -28,7 +28,6 @@ describe("Footer", () => {
   it("renders the Follow Us text", () => {
     expect(screen.getByText(/follow us/i)).toBeInTheDocument();
   });
-
   it("renders the credit section with CivicDataLab logo", () => {
     const image = screen.getAllByAltText(/civic/i);
     expect(image.length).toBeGreaterThanOrEqual(1);

@@ -1,4 +1,4 @@
-# CivicDataSpace – Open Dataset Explorer
+## CivicDataSpace – Open Dataset Explorer
 
 CivicDataSpace is a modern, responsive web application built using **Next.js (App Router)** and **Tailwind CSS** that enables users to explore open civic datasets across different sectors.
 
@@ -20,7 +20,7 @@ CivicDataSpace is a modern, responsive web application built using **Next.js (Ap
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 13+ (App Router)
 - **Styling**: Tailwind CSS
